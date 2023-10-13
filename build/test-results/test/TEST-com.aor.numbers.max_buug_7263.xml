@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.max_buug_7263" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-13T14:01:35" hostname="tiago-ROG-Strix-G531GT-G531GT" time="0.001">
+<testsuite name="com.aor.numbers.max_buug_7263" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-13T16:20:50" hostname="tiago-ROG-Strix-G531GT-G531GT" time="0.001">
   <properties/>
   <testcase name="maxBugError()" classname="com.aor.numbers.max_buug_7263" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
