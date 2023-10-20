@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.FirstSpecification" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-10-20T10:37:47" hostname="tiago-ROG-Strix-G531GT-G531GT" time="0.193">
+<testsuite name="com.aor.numbers.FirstSpecification" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-10-20T10:42:05" hostname="tiago-ROG-Strix-G531GT-G531GT" time="0.363">
   <properties/>
-  <testcase name="two plus two should equal four" classname="com.aor.numbers.FirstSpecification" time="0.133"/>
-  <testcase name="Should be able to remove from list" classname="com.aor.numbers.FirstSpecification" time="0.034"/>
-  <testcase name="Should get an index out of bounds when removing a non-existent item" classname="com.aor.numbers.FirstSpecification" time="0.002"/>
-  <testcase name="numbers to the power of two [a: 1, b: 2, c: 1, #0]" classname="com.aor.numbers.FirstSpecification" time="0.004"/>
+  <testcase name="two plus two should equal four" classname="com.aor.numbers.FirstSpecification" time="0.261"/>
+  <testcase name="Should be able to remove from list" classname="com.aor.numbers.FirstSpecification" time="0.06"/>
+  <testcase name="Should get an index out of bounds when removing a non-existent item" classname="com.aor.numbers.FirstSpecification" time="0.003"/>
+  <testcase name="numbers to the power of two [a: 1, b: 2, c: 1, #0]" classname="com.aor.numbers.FirstSpecification" time="0.006"/>
   <testcase name="numbers to the power of two [a: 2, b: 2, c: 4, #1]" classname="com.aor.numbers.FirstSpecification" time="0.0"/>
   <testcase name="numbers to the power of two [a: 3, b: 2, c: 9, #2]" classname="com.aor.numbers.FirstSpecification" time="0.0"/>
+  <testcase name="Should get an index out of bounds when removing a non-existent item" classname="com.aor.numbers.FirstSpecification" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
