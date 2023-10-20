@@ -66,4 +66,20 @@ class FirstSpecification extends  Specification {
         3 | 2 | 9
     }
 
+
+    /* Vê se um método que tem um void return é chamado*/
+    interface Notifier {
+        void notify(String message)
+    }
+
+    def "Should verify notify was called"() {
+        given:
+        def notifier = Mock(Notifier)
+        when:
+        notifier.notify('foo')
+        then:
+        1 * notifier.notify('foo')
+    }
+
+
 }
