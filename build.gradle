@@ -7,35 +7,30 @@ plugins {
 group 'com.aor.numbers'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
-    maven {
-        url 'https://dl.bintray.com/groovy/maven'
-    }
-    google()
 }
-compileJava {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
-}
+
 dependencies {
   /*testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testImplementation 'junit:junit:4.13.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     testImplementation 'org.mockito:mockito-core:3.7.7'
-   */
+*/
 
     testImplementation 'org.spockframework:spock-core:2.0-groovy-3.0'
-    testImplementation 'org.codehaus.groovy:groovy-all:3.0.8' // Update to Groovy 4.x
+    testImplementation 'org.codehaus.groovy:groovy-all:3.0.8'
+
+
 }
 
 test {
     useJUnitPlatform()
-
 }
 
 pitest {
     junit5PluginVersion = '0.12'
 }
+
+
