@@ -2,6 +2,7 @@ package com.aor.numbers
 
 import spock.lang.Specification
 
+
 class FirstSpecification extends  Specification {
 
     def "two plus two should equal four"() {
@@ -69,7 +70,7 @@ class FirstSpecification extends  Specification {
 
     /* Vê se um método que tem um void return é chamado*/
     interface Notifier {
-        void notify(String message)
+        void notify(message)
     }
 
     def "Should verify notify was called"() {
